@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Form Registrasi Mahasiswa</div>
+        <div class="content">
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Nama lengkap</span>
+                        <input type="text" placeholder="Masukan nama lengkap" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Fakultas</span>
+                        <select required>
+                            <option value="">Pilih Fakultas</option>
+                            <option value="ketenagalistrikan">Fakultas Ketenagalistrikan dan Energi Terbarukan</option>
+                            <option value="bisnis-energi">Fakultas Teknologi dan Bisnis Energi</option>
+                            <option value="infrastruktur">Fakultas Teknologi Infrastruktur dan Kewilayahan</option>
+                            <option value="telematika">Fakultas Telematika Energi</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Jurusan</span>
+                        <select required>
+                            <option value="">Pilih Jurusan</option>
+                            <option value="elektro">Teknik Elektro</option>
+                            <option value="listrik">Teknik Tenaga Listrik</option>
+                            <option value="energi">Teknik Sistem Energi</option>
+                            <option value="mesin">Teknik Mesin</option>
+                            <option value="bisnis-energi">Teknik Bisnis Energi</option>
+                            <option value="industri">Teknik Industri</option>
+                            <option value="sipil">Teknik Sipil</option>
+                            <option value="pengembangan-wilayah">Teknik Pengembangan Wilayah (Geografi)</option>
+                            <option value="lingkungan">Teknik Lingkungan</option>
+                            <option value="informatika">Teknik Informatika</option>
+                            <option value="sistem-informasi">Sistem Informasi</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Angkatan</span>
+                        <select required>
+                            <option value="" disabled selected>Pilih Tahun</option>
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">NIM</span>
+                        <input type="text" placeholder="Masukan NIM" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" placeholder="Masukan email" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Nomor telepon</span>
+                        <input type="text" placeholder="Masukan nomor telepon" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input type="password" placeholder="Masukan password" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Ulangi password</span>
+                        <input type="password" placeholder="Masukan ulang password" required>
+                    </div>
+                    <div class="gender-details">
+                        <input type="radio" name="gender" id="dot-1">
+                        <input type="radio" name="gender" id="dot-2">
+                        <input type="radio" name="gender" id="dot-3">
+                        <span class="gender-title">Jenis kelamin</span>
+                        <div class="category">
+                            <label for="dot-1">
+                                <span class="dot one"></span>
+                                <span class="gender">Pria</span>
+                            </label>
+                            <label for="dot-2">
+                                <span class="dot two"></span>
+                                <span class="gender">Wanita</span>
+                            </label>
+                            <label for="dot-3">
+                                <span class="dot three"></span>
+                                <span class="gender">Lainnya</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Daftar">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
